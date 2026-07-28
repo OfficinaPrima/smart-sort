@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://officinaprima.github.io/smart-sort/sitemap.xml
