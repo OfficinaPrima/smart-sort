@@ -13,6 +13,16 @@
       gtag('config', 'G-JYSV0BXT00');
     </script>
 
+    <!-- hCaptcha spam protection for the notify form (enforced server-side by Web3Forms) -->
+    <script>
+      window.__hcapReady = false;
+      function onCapLoad() {
+        window.__hcapReady = true;
+        window.dispatchEvent(new Event('hcaptcha-ready'));
+      }
+    </script>
+    <script src="https://js.hcaptcha.com/1/api.js?onload=onCapLoad&render=explicit&recaptchacompat=off" async defer></script>
+
     <title>Smart Sort | Screen-Free Montessori Shape Sorter for Ages 1 to 3</title>
     <meta name="description" content="Smart Sort is a screen-free, Montessori-inspired shape sorter for ages 1 to 3. The pieces themselves vibrate, light up, and play, giving your child guided, multisensory, self-correcting feedback. A smart take on the classic wooden shape sorter." />
     <meta name="keywords" content="Montessori shape sorter, multisensory toy for toddlers, self-correcting toy, screen-free learning toy, smart shape sorter, electronic shape sorter for toddlers, toddler learning toy ages 1 to 3, wooden shape sorter alternative, Melissa and Doug alternative, sensory toy for toddlers" />
@@ -94,8 +104,8 @@
     <link rel="icon" type="image/svg+xml" href="/smart-sort/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script type="module" crossorigin src="/smart-sort/assets/index-CYt4mAJv.js"></script>
-    <link rel="stylesheet" crossorigin href="/smart-sort/assets/index-BSB4-eZ9.css">
+    <script type="module" crossorigin src="/smart-sort/assets/index-Db_xneho.js"></script>
+    <link rel="stylesheet" crossorigin href="/smart-sort/assets/index-Bun1oKOh.css">
   </head>
   <body>
     <div id="root"></div>
